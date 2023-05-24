@@ -47,7 +47,13 @@
       height: 250px;
       z-index: -9;
       @media screen and (max-width: "390px") {
-        width: 250px;
+        width: 300px;
+      }
+      @media screen and (max-width: "360px") {
+        width: 300px;
+      }
+      @media screen and (max-width: "330px") {
+        width: 230px;
       }
     }
   }

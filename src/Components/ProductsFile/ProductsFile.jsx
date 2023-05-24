@@ -32,7 +32,12 @@ export default function ProductsFile() {
           xs={7}
           sx={{ position: "relative" }}
         >
-          <Typography sx={{ fontSize: "36px", fontFamily: "Inter" }}>
+          <Typography
+            sx={{
+              fontSize: { xs: "23px", sm: "28px", md: "32px", lg: "36px" },
+              fontFamily: "Inter",
+            }}
+          >
             Products life
           </Typography>
           <Typography

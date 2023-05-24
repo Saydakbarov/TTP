@@ -1,15 +1,12 @@
 .footer {
   img {
     @media screen and (max-width: 400px) {
-      width: 100px !important;
-    }
-    @media screen and (max-width: 340px) {
       width: 80px !important;
     }
   }
 
   .companyName {
-    @media screen and (max-width: 330px) {
+    @media screen and (max-width: 400px) {
       font-size: 20px !important;
     }
   }

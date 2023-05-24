@@ -23,8 +23,8 @@ export default function Footer() {
           lg: "40px 100px",
         },
         background: "#004CCA",
-        className:"footer"
       }}
+      className="footer"
     >
       <Grid
         container
