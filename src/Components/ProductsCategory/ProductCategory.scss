@@ -1,0 +1,76 @@
+.btnVegetable {
+  color: gray;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btnVegetable:focus {
+  color: white;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: blue;
+}
+
+.productCategory {
+  @media screen and (max-width: "520px") {
+    .priceBox {
+      width: 100% !important;
+    }
+
+    .block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: start;
+    }
+
+    .imgBox {
+      img {
+        margin-top: 40px;
+      }
+    }
+  }
+
+  .imgBox {
+    pointer-events: none;
+
+    img {
+      width: 350px;
+      height: 250px;
+      z-index: -9;
+      @media screen and (max-width: "390px") {
+        width: 250px;
+      }
+    }
+  }
+
+  .priceBox {
+    @media screen and (max-width: "1700px") {
+      margin-top: -90px;
+    }
+    @media screen and (max-width: "1670px") {
+      margin-top: -50px;
+    }
+
+    @media screen and (max-width: "1350px") {
+      margin-top: 20px;
+    }
+    @media screen and (max-width: "1290px") {
+      margin-top: 30px;
+    }
+    @media screen and (max-width: "1200px") {
+      margin-top: -40px;
+    }
+    @media screen and (max-width: "500px") {
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,110 @@
+.productFile {
+  @media screen and (max-width: 330px) {
+    margin-top: 300px !important;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 90px;
+
+    @media screen and (max-width: 780px) {
+      padding-bottom: 60px;
+    }
+
+    @media screen and (max-width: 610px) {
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      position: relative;
+    }
+
+    .swiper-pagination-fraction {
+      width: 100%;
+      left: 38%;
+      bottom: 9%;
+      z-index: -9;
+
+      @media screen and (max-width: "1200px") {
+        left: 33%;
+      }
+      @media screen and (max-width: "980px") {
+        left: 30%;
+        bottom: 6%;
+      }
+      @media screen and (max-width: "780px") {
+        left: 26%;
+      }
+      @media screen and (max-width: "670px") {
+        left: 22%;
+        bottom: 4%;
+      }
+      @media screen and (max-width: "560px") {
+        left: 18%;
+        font-size: 14px;
+      }
+      @media screen and (max-width: "460px") {
+        left: 16%;
+      }
+      @media screen and (max-width: "400px") {
+        left: 14%;
+      }
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      width: 40px;
+      height: 40px;
+      background-color: #004cca;
+      position: absolute;
+      top: 85%;
+      right: 0%;
+      color: white;
+      margin: 0px !important;
+
+      @media screen and (max-width: "610px") {
+        width: 30px;
+        height: 30px;
+      }
+      @media screen and (max-width: "670px") {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+      font-size: 14px;
+
+      @media screen and (max-width: "470px") {
+        font-size: 10px;
+      }
+    }
+
+    .swiper-button-prev {
+      left: 75%;
+
+      @media screen and (max-width: "1200px") {
+        left: 67%;
+      }
+      @media screen and (max-width: "980px") {
+        left: 60%;
+      }
+      @media screen and (max-width: "780px") {
+        left: 48%;
+      }
+      @media screen and (max-width: "670px") {
+        left: 45%;
+      }
+      @media screen and (max-width: "560px") {
+        left: 36%;
+      }
+      @media screen and (max-width: "460px") {
+        left: 33%;
+      }
+      @media screen and (max-width: "400px") {
+        left: 28%;
+      }
+    }
+  }
+}
