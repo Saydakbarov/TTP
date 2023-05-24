@@ -12,7 +12,7 @@ export default function ProductsFile() {
   return (
     <Box
       sx={{
-        mt: { xs: 12, sm: 10, md: 8, lg: 8 },
+        mt: { xs: 12, sm: 10, md: 8, lg: 5 },
         p: {
           xs: "60px 8px",
           sm: "60px 10px",
